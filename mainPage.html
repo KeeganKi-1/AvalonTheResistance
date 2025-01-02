@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="mainPage.css">
+    <link rel="icon" href="images\favicon.png">
+    <title>Avalon: The Resistance</title>
+</head>
+
+<body>
+    <div class="headContainer">
+        <h1>Avalon: The Resistance </h1>
+
+    </div>
+    <h2>Create A Game:</h2> <iframe src="explainer.html"></iframe>
+    <form autocomplete="off" onsubmit="">
+        <label for="Name">Enter Your Name: </label>
+        <input type="text" id="name" name="name">
+
+        <h3>Choose Optional RuleSets/Characters (Hover For More Info):</h3>
+        <label for="Targeting"
+            title="The quest leader may decide which quests to start and does not have to go in order"> Targeting
+        </label>
+        <input type="checkbox" id="Targeting" name="Targeting">
+        <br>
+        <label for="Percevial" title="A good character who knows Merlin's identity at the beginning of the game">
+            Percevial </label>
+        <input type="checkbox" id="Percevial" name="Percevial">
+        <br>
+        <label for="Mordred" title="An evil character that is not revealed to Merlin">Mordred</label>
+        <input type="checkbox" id="Mordred" name="Mordred">
+        <br>
+        <label for="Oberon"
+            title="An evil player who does not know who the other evil characters are and the other evil characters do not know him">
+            Oberon </label>
+        <input type="checkbox" id="Oberon" name="Oberon">
+        <br>
+        <label for="Morgana"
+            title="An evil character who reveals themselves to Percevial as Merlin. Note: Percevial rule will be turned on if this is selected">Morgana</label>
+        <input type="checkbox" id="Morgana" name="Morgana">
+        <br>
+        <br>
+        <input type="submit" id="Create Game" value="Create Game">
+    </form>
+    <p>Code: </p>
+    <p>Players: </p>
+    <h2>Join A Game</h2>
+    <form autocomplete="off" onsubmit="">
+        <label for="Name"> Enter Your Name:</label>
+        <input type="text" id="Name">
+        <br>
+        <label for="Code">Enter A Game Code: </label>
+        <input type="text" id="Code" name="Code">
+        <br>
+        <br>
+        <input type="submit" id="Join Game" value="Join Game">
+    </form>
+
+
+</body>
+
+</html>

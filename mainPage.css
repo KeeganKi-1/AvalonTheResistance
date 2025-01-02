@@ -1,0 +1,50 @@
+html,body{
+    height: 100%;
+    font-family: Alkhemial;
+    background-color: rgb(10, 10, 10);
+    color: rgb(239, 163, 0);
+    overflow: hidden; 
+}
+@font-face {
+    font-family: Alkhemial;
+    src: url(Alkhemikal.ttf);
+}
+iframe{
+    width: 25vw;
+    height: 70vh;
+    float: right;
+    margin-right: 20vw;
+    border: 1px grey solid;
+
+}
+
+button{
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(200, 200, 200);
+    cursor: pointer
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 55px;
+}
+
+.headContainer {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    flex-direction: row;
+    text-align: center;
+}
+h2{
+text-indent: 30vh;    
+}
+form{
+    margin-left: 40vh;
+}
+p{
+    text-indent: 30vh;
+    margin: 5px;
+}

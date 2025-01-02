@@ -1,0 +1,15 @@
+html,body{
+    height: 100%;
+    font-family: Alkhemial;
+    background-color: rgb(10, 10, 10);
+    color: rgb(239, 163, 0);
+}
+@font-face {
+    font-family: Alkhemial;
+    src: url(Alkhemikal.ttf);
+}
+h1{
+    margin: 0px;
+    text-align: center;
+    font-size: 25px;
+}
